@@ -1,8 +1,8 @@
 Example Voting (Instavote) App
 =========
 
-#This is the line added for testing and vote app.
 #testing restricted branch rule
+second line for testing restricted branch rule.
 
 Getting started
 ---------------
