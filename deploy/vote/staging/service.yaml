@@ -1,7 +1,6 @@
 apiVersion: v1
 kind: Service
 metadata:
-  creationTimestamp: null
   labels:
     app: vote
   name: vote
@@ -10,5 +9,6 @@ spec:
   - name: "80"
     port: 80
     targetPort: 80
-    nodePort: 30200
+    nodePort: 30300
     protocol: TCP
+  type: LoadBalancer
